@@ -1,3 +1,7 @@
+'''
+This is the main file for the app
+'''
+
 from flask import Flask, render_template, request, Response
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder 
